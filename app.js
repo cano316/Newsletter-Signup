@@ -43,7 +43,7 @@ app.post('/', (req, res) => {
             res.sendFile(__dirname + '/success.html')
         } catch (error) {
             res.sendFile(__dirname + '/failure.html')
-            // console.log(error.response.data)
+            console.log(error.response.data)
         }
     }
 })
