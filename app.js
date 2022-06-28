@@ -1,6 +1,7 @@
 const express = require('express');
 const app = express();
 const axios = require('axios').default;
+require('dotenv').config();
 // Serve static files
 app.use(express.static("public"))
 // Parser
